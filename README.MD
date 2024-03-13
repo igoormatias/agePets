@@ -39,7 +39,7 @@ npm start
 ```	 
 Escaneie o código QR com o aplicativo Expo Go no seu dispositivo móvel ou utilize um emulador para visualizar o aplicativo.
 
-##Como usar o aplicativo
+## Como usar o aplicativo
 1-Na tela inicial, selecione o tipo de animal (cachorro ou gato).
 2-Insira a idade do animal em anos.
 3-Insira o peso do animal em quilogramas.
