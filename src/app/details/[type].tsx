@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Keyboard, Alert } from "react-native";
+import { View, Text, Keyboard, Alert, TouchableWithoutFeedback } from "react-native";
 import { useForm, Controller } from "react-hook-form";
 import { useLocalSearchParams } from "expo-router";
 import { calculateCanineAge, calculateFelineAge } from "@/utils";
@@ -49,6 +49,7 @@ export default function PetDetails() {
   };
 
   return (
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
     <View className="flex-1 p-8 bg-black ">
       <Header
         title="Pets Age"
@@ -107,5 +108,6 @@ export default function PetDetails() {
         <Button title="Voltar" onPress={hangleGoBack} />
       </View>
     </View>
+    </TouchableWithoutFeedback>
   );
 }
