@@ -40,11 +40,11 @@ npm start
 Escaneie o código QR com o aplicativo Expo Go no seu dispositivo móvel ou utilize um emulador para visualizar o aplicativo.
 
 ## Como usar o aplicativo
-- 1-Na tela inicial, selecione o tipo de animal (cachorro ou gato).
-- 2-Insira a idade do animal em anos.
-- 3-Insira o peso do animal em quilogramas.
-- 4-Clique no botão "Verificar" para calcular a idade do animal.
-- 5-A idade calculada do animal será exibida na tela.
+- Na tela inicial, selecione o tipo de animal (cachorro ou gato).
+- Insira a idade do animal em anos.
+- Insira o peso do animal em quilogramas.
+- Clique no botão "Verificar" para calcular a idade do animal.
+- A idade calculada do animal será exibida na tela.
 
 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para reportar problemas ou sugestões de melhorias.
