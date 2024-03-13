@@ -46,7 +46,7 @@ Escaneie o código QR com o aplicativo Expo Go no seu dispositivo móvel ou util
 - Clique no botão "Verificar" para calcular a idade do animal.
 - A idade calculada do animal será exibida na tela.
 
-##Contribuindo
+## Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para reportar problemas ou sugestões de melhorias.
 
 Licença
