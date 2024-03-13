@@ -49,7 +49,7 @@ Escaneie o código QR com o aplicativo Expo Go no seu dispositivo móvel ou util
 ## Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para reportar problemas ou sugestões de melhorias.
 
-Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
 
 Desenvolvido Igor Matias
