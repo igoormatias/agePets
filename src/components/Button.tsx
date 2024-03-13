@@ -1,15 +1,16 @@
 import { Text, TouchableOpacity, TouchableOpacityProps, View } from "react-native"
 
 
-type Props = TouchableOpacityProps & {
+interface ButtonProps extends TouchableOpacityProps {
   title: string
+  type?: "primary" | "secondary"
 }
 
-export function Button({ title, ...rest }: Props) {
+export function Button({ title,type, ...rest }: ButtonProps) {
   return (
     <TouchableOpacity  activeOpacity={0.7} {...rest}>   
     <View     
-    className="h-12 w-full bg-blue-500  color-white items-center justify-center rounded-sm"   
+    className={`h-12 w-full ${type === "primary" ? "bg-blue-500" : "bg-gray-400"} color-white items-center justify-center rounded-sm`  } 
     
   >
    

@@ -1,4 +1,6 @@
+import { Cog, PawPrint } from "lucide-react-native"
 import { View, Text } from "react-native"
+import { SafeAreaView } from "react-native-safe-area-context"
 
 type Props = {
   title: string
@@ -7,9 +9,13 @@ type Props = {
 
 export function Header({ title, subtitle }: Props) {
   return (
-    <View className="mt-14 mb-12">
+    <View className="w-full mt-14 mb-12 bg-slate-900 p-3 rounded"> 
+      <View className="flex-row items-center gap-4">
+        <PawPrint fill="white"  color="white" size={32} />
       <Text className="text-white font-bold text-4xl">{title}</Text>
-      <Text className="text-white font-regular text-lg">{subtitle}</Text>
+      </View>
+     
+      <Text className="text-white font-semibold mt-2 text-lg">{subtitle}</Text>
     </View>
   )
 }
