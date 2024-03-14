@@ -22,7 +22,6 @@ export default function PetDetails() {
   const navigation = useNavigation();
 
   const petType = params?.type === dogType ? "cachorro" : "gato";
-  const petAgeText = petType === "cachorro" ? "canina" : "felina";
 
   const onSubmit = (data: FormData) => {
     Keyboard.dismiss();
@@ -53,7 +52,7 @@ export default function PetDetails() {
     <View className="flex-1 p-8 bg-black ">
       <Header
         title="Pets Age"
-        subtitle={`Descubra a idade ${petAgeText} do seu ${petType}.`}
+        subtitle={`Descubra a idade real do seu ${petType}.`}
       />
       <Controller
         control={control}
@@ -95,8 +94,7 @@ export default function PetDetails() {
       />
       {petAge > 0 && (
         <Text className="text-2xl mb-5 color-white items-center justify-center mt-5  ">
-          {" "}
-          O seu {petType} tem {petAge} anos.
+          O seu {petType} tem aproximadamente {petAge} anos.
         </Text>
       )}
       <View className="flex gap-8 mt-20">

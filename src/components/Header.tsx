@@ -1,6 +1,5 @@
-import { Cog, PawPrint } from "lucide-react-native"
-import { View, Text } from "react-native"
-import { SafeAreaView } from "react-native-safe-area-context"
+import { PawPrint } from "lucide-react-native"
+import { Text, View } from "react-native"
 
 type Props = {
   title: string
